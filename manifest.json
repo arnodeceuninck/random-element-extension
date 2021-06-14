@@ -1,0 +1,13 @@
+   {
+      "name": "Random Confessions",
+      "version": "1.0",
+      "manifest_version": 2,
+      "content_scripts": [
+        {
+          "matches": [
+            "https://ua.confessions.link/admin"
+          ],
+          "js": ["content.js"]
+        }
+      ]
+    }
